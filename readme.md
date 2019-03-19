@@ -12,16 +12,14 @@ A fullstack application built with front-end engines such as JavaScript, Bootstr
 
 ## Dependencies
 
-- ReactJS
-- ReactDOM
-- Native WebSocket
-- Node.js
-- Express
-- uuid
-- ws
-- Webpack
-- [babel-loader](https://github.com/babel/babel-loader)
-- [webpack-dev-server](https://github.com/webpack/webpack-dev-server)
+- [JavaScript](https://www.javascript.com/)
+- [EJS](https://ejs.co/)
+- [Passport.js](http://www.passportjs.org/)
+- [connect-flash](https://github.com/jaredhanson/connect-flash)
+- [Node.js](https://nodejs.org/en/)
+- [Express](http://expressjs.com/)
+- [MongoDB](https://www.mongodb.com/)
+- [Mongoose](https://mongoosejs.com/)
 
 ## Functionality
 
@@ -32,10 +30,6 @@ A fullstack application built with front-end engines such as JavaScript, Bootstr
 - By default when a user joins the chat he will be displayed as Anonymously
 - Users can change their name at any time and all users will be notified
 - The number os users online will be displayed in the far upper rigth corner of the screen and updated automatically
-
-## Images
-
-!["Screenshot of chat"](https://github.com/PointCodeZero/Chatty-App/blob/master/docs/chat.jpg?raw=true)
 
 ## Getting Started
 
