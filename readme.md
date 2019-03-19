@@ -31,63 +31,18 @@ A RESTful fullstack application built with front-end engines such as JavaScript,
 
 ## Getting Started
 
-1. Install all dependencies (run `npm install` command)
-2. Run the Client server `./server.js` using the `npm start` command
-3. Run the WebSocket server `./chatty_server/server.js` using the `node server.js` command
+1. Clone this repository to your local computer
+2. Install all dependencies (run `npm install` command)
+3. Install [MongoDB](https://www.mongodb.com/what-is-mongodb)
+4. In your terminal go to the `root` and run `./mongod` command
+5. In your project folder start the application by using the `node app.js` command
 
 ### Expected Usage
 
 This program should be executed from the browser, in the following manner:
 
 1. Go to your browser address bar and open `http://localhost/3000/`
-2. Type a message and hit `Enter`
-3. Type a new name and hit `Enter`
-4. Open a new window browser and reapeat steps 2 and 3
-
-#DELETING CAMPGROUNDS
-
-- Add Destroy Route
-- Add Delete Button
-
-#AUTHORIZATION PART 1: CAMPGROUNDS
-
-- User can only edit his/her campgrounds
-- User can only delete his/her campgrounds
-- Hide/Show edit and delete buttons
-
-#EDITING COMMENTS
-
-- Add Edit route for comments
-- Add Edit button
-- Add Update route
-
-#DELETING COMMENTS
-
-- Add Destroy Route
-- Add Delete Button
-
-#AUTHORIZATION PART 2: COMMENTS
-
-- User can oly edit his/her comments
-- User can only delete his/her comments
-- Hide/Show edit and delete buttons
-- Refactor Middleware
-
-#ADDING IN FLASH
-
-- Demo working version
-- Install and configure connect-flash
-- Setup flash on header.ejs file
-- Add bootstrap alerts to header
-
-#HANDLING ERRORS
-
-- Prevent application to crash
-
-#REFACTOR LANDING PAGE
-
-- Add background animation
-
-#DYNAMIC PRICE
-
-- Add dynamic price to DB
+2. Start by creating a new user
+3. Add some campgrounds and comments
+4. Create a new user
+5. Add more campgrounds and comments
