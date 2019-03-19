@@ -2,7 +2,7 @@
 
 YelpCamp is a Yelp clone with focus on sharing the best campgrounds you know!
 
-A fullstack application built with front-end engines such as JavaScript, Bootstrap, CSS3, EJS and back-end engines like Node.js, Express, MongoDB, Mongoose. Authorization & Authentication is handled by Passport.js.
+A RESTful fullstack application built with front-end engines such as JavaScript, Bootstrap, CSS3, EJS and back-end engines like Node.js, Express, MongoDB, Mongoose. Authorization & Authentication is handled by Passport.js.
 
 ## Images
 
@@ -23,13 +23,11 @@ A fullstack application built with front-end engines such as JavaScript, Bootstr
 
 ## Functionality
 
-- Users will be able to join a chat and start typing messages to each where
-- Messages will be displayed in chronological order to everyone participating the chat
-- Time messages were creates are displayed beside eache message
-- Users that join the chat later will only have access to the messages history from this point foward
-- By default when a user joins the chat he will be displayed as Anonymously
-- Users can change their name at any time and all users will be notified
-- The number os users online will be displayed in the far upper rigth corner of the screen and updated automatically
+- Users will can sign up or login with an existing account
+- Users can add new campgrounds
+- Users can create comments on any campground
+- Users can edit or delete comments only if they are their owners
+- Users can edit or delete a campground only if they are their owners
 
 ## Getting Started
 
